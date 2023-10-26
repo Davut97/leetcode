@@ -6,9 +6,9 @@ import "fmt"
 // Output: 1994
 // Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 func main() {
-	fmt.Println(romanToInt("MCMXCIV"))
+	fmt.Println(RomanToInt("MCMXCIV"))
 }
-func romanToInt(s string) int {
+func RomanToInt(s string) int {
 	h := map[uint8]int{
 		'I': 1,
 		'V': 5,
